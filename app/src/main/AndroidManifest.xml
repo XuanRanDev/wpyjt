@@ -2,6 +2,17 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.XuanRan.wpyjt">
+    
+   
+    <!--读取您的USB存储设备中的内容-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!--此应用可显示在其他应用上方-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <!--修改或删除您的USB存储设备中的内容-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <application
         android:allowBackup="true"
@@ -11,8 +22,20 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         android:resizeableActivity="false">
+        
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true"/>
 
-           <!--适配全面屏-->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="阻止Activity内添加WindowManager.LayoutParams.FLAG_SECURE标志，可用于解除禁止截图的软件。"/>
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54"/>
+
+        <!--适配全面屏-->
         <meta-data
             android:name="android.max_aspect"
             android:value="4.0"/>

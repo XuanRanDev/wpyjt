@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="51dp"
+		android:id="@+id/tezt2RelativeLayout1"/>
+
+	<ImageView
+		android:id="@+id/app_icon"
+		android:layout_marginRight="5dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:layout_marginLeft="5dp"
+		android:layout_width="40dp"
+		android:layout_height="40dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text"
+		android:textColor="#707070"
+		android:id="@+id/app_info_name"
+		android:layout_toRightOf="@id/app_icon"
+		android:layout_marginTop="5dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text"
+		android:textColor="#9f9f9f"
+		android:layout_toRightOf="@id/app_icon"
+		android:layout_marginTop="23dp"
+		android:id="@+id/app_info_package_name"/>
+<!--
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:id="@+id/textCheckBox"
+		android:layout_marginTop="8dp"
+		android:gravity="right"
+		android:layout_marginRight="20dp"/>
+-->
+</RelativeLayout>
+

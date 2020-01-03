@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_gravity="top">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="51dp">
+
+		<ImageView
+			android:id="@+id/app_icon"
+			android:layout_marginRight="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_width="40dp"
+			android:layout_height="40dp"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="200dp"
+			android:layout_height="match_parent">
+
+			<TextView
+				android:id="@+id/app_info_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="left"
+				android:layout_gravity="left|center"
+				android:textSize="15sp"
+				android:textColor="#707070"
+				android:layout_marginTop="5dp"
+				android:text="我偏要截图"/>
+
+			<TextView
+				android:id="@+id/app_info_package_name"
+				android:layout_width="wrap_content"
+				android:layout_height="20dp"
+				android:gravity="left"
+				android:layout_gravity="left|center"
+				android:textColor="#9f9f9f"
+				android:text="com.XuanRan.wpyjt.回到家饿不多喝点和好吧"/>
+
+		</LinearLayout>
+
+		
+		
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="right|center">
+
+			<CheckBox
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/testCheckBox"
+				android:layout_gravity="right|center"
+				android:layout_marginTop="10dp"
+				android:layout_marginRight="20dp"/>
+
+		</LinearLayout>
+		
+		
+		
+		
+		
+
+	</LinearLayout>
+
+</LinearLayout>
+

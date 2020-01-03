@@ -1,11 +1,22 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    
+		<!-- Base application theme. -->
+		<style name="AppTheme" parent="AppTheme.Base">
+			<!-- Customize your theme here. -->
+
+		</style>
+		<style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+			<item name="colorPrimary">@color/colorPrimary</item>
+			<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+			<item name="colorAccent">@color/colorAccent</item>
+			<item name="android:windowBackground">@android:color/white</item>
+		</style>
+
+
+    <style name="SAOTheme" parent="android:Theme.Wallpaper">
+        <!-- windowNoTitle设置为true，去掉标题栏 -->
+        <item name="android:windowNoTitle">true</item>
     </style>
 
 </resources>
