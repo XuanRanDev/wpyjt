@@ -15,12 +15,6 @@ import java.util.*;
 public class MainActivity extends AppCompatActivity
 {
 
-//    private static final String ACTION_APPLY_ICON_THEME = "com.teslacoilsw.launcher.APPLY_ICON_THEME";
-//    private static final String NOVA_PACKAGE = "com.teslacoilsw.launcher";
-//    private static final String EXTRA_ICON_THEME_PACKAGE = "com.teslacoilsw.launcher.extra.ICON_THEME_PACKAGE";
-////	private ArrayList<Map<String, Object>> mData = new ArrayList<>();
-//	private SimpleAdapter adapter;
-//	
     private ListView appInfoListView = null;
     private List<AppInfo> appInfos = null;
     private AppInfosAdapter infosAdapter = null;
@@ -38,24 +32,6 @@ public class MainActivity extends AppCompatActivity
         
     }
 	
-	
-//	private void test(){
-//		adapter = new SimpleAdapter(this, mData, R.layout.tezt2,
-//                                    new String[]{ "title", "Descript", "note"},
-//                                    new int[]{R.id.app_icon, R.id.app_info_name, R.id.app_info_package_name});
-//
-//		final Map<String, Object> item = new HashMap<String, Object>();
-//        String message1 = "";
-//        String name = "";
-//        String ok = "";
-//        item.put("title", name);
-//        item.put("Descript", message1);
-//        item.put("note", ok);
-//        mData.add(item);
-//
-//        adapter.notifyDataSetChanged();
-//	}
-//
     private void init()
 	{
         appInfos = getAppInfos();
