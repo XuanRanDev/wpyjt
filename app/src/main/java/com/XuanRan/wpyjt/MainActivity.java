@@ -147,9 +147,9 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.settings)
 		{
             Toast.makeText(this, "设置", Toast.LENGTH_SHORT).show();
-			Intent intent=new Intent();
-			intent.setClass(this,Test.class);
-			startActivity(intent);
+//			Intent intent=new Intent();
+//			intent.setClass(this,Test.class);
+//			startActivity(intent);
 
         }
 		else if (id == R.id.abouts)
